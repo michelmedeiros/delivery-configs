@@ -14,6 +14,8 @@ eureka:
     wait-time-in-ms-when-sync-empty: 3000
 
 security:
+    basic:
+        enabled: false
     oauth2:
         client:
             access-token-validity-seconds: 1800
